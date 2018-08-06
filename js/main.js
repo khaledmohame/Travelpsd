@@ -16,7 +16,19 @@ $(function () {
         cursorspeed: ""
     });
     
-    $(".count").countTo();
+  var isDone = false;
+    
+        $(window).scroll(function() {
+            
+            if( ! isDone && $(window).scrollTop() >= 1000 ) {
+               
+           $(".count").countTo({});
+               
+             isDone = true;  
+        
+           }
+            
+        });
     
         
         
