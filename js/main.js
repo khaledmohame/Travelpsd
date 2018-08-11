@@ -74,7 +74,12 @@ $(function () {
             
         },1000);
     });
-    
+    $(window).load(function(){
+        $("body").css("overflow","auto");
+        $(".loading-overlay .spinner").fadeOut(4000,function(){
+            $(this).parent().fadeOut(4000);
+        });
+    });
     
 });
 
