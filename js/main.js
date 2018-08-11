@@ -18,19 +18,19 @@ $(function () {
     
      $(".typeme").typed({
         strings: ["Travel"],
-        startDelay: 1500,
+        startDelay: 6500,
         showCursor: false,
     });
     
     $(".typemein").typed({
         strings: ["Template"],
-        startDelay: 1500,
+        startDelay: 7000,
         showCursor: false,
     });
     
      $(".typemeinfo").typed({
         strings: ["+0201111555678"],
-        startDelay: 1500,
+        startDelay: 7500,
         showCursor: false,
     });
     
