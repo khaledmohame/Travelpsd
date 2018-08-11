@@ -8,7 +8,8 @@ Secondcolor: #8f62dc
 Secondcolor: #fffbff
 */
 body{
-   font-family: 'Montserrat', sans-serif; 
+   font-family: 'Montserrat', sans-serif;
+   overflow: hidden;
 }
 .scroll-to-top{
     background-color: #333;
