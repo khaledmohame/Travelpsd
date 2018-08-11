@@ -16,6 +16,24 @@ $(function () {
         cursorspeed: ""
     });
     
+     $(".typeme").typed({
+        strings: ["Travel"],
+        startDelay: 1500,
+        showCursor: false,
+    });
+    
+    $(".typemein").typed({
+        strings: ["Template"],
+        startDelay: 1500,
+        showCursor: false,
+    });
+    
+     $(".typemeinfo").typed({
+        strings: ["+0201111555678"],
+        startDelay: 1500,
+        showCursor: false,
+    });
+    
   var isDone = false;
     
         $(window).scroll(function() {
